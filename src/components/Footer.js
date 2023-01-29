@@ -1,7 +1,5 @@
-import React from 'react';
-
-const Footer = () => {
-  return <div>Footer</div>;
+const Footer = (props) => {
+  return <div className="container font-tajawal ms-32">{props.text}</div>;
 };
 
 export default Footer;

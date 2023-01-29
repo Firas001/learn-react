@@ -1,16 +1,13 @@
-import React, { Component } from "react";
-import Learn from "./components/test/Learn";
-import Header from "./components/test/Header";
+import { Header, Footer, Hero, Features } from "./components/index";
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <Learn />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Hero />
+      <Features />
+    </>
+  );
+};
 
 export default App;

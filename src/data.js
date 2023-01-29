@@ -7,7 +7,7 @@ import {
   IoLogoInstagram,
   IoMdAddCircle,
   IoIosCheckmarkCircle,
-  IoIosArrowRoundForward,
+  IoIosArrowRoundBack,
 } from "react-icons/io";
 
 // import images
@@ -110,7 +110,7 @@ export const newInStore = {
   title: "New In Store Now",
   subtitle: "Get the latest items immediately with promo prices",
   link: "Check all",
-  icon: <IoIosArrowRoundForward />,
+  icon: <IoIosArrowRoundBack />,
   products: [
     {
       name: "chair",

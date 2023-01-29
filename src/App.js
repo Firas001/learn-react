@@ -5,6 +5,9 @@ import {
   NewItems,
   FeaturesSecond,
   Products,
+  Testimonial,
+  Newsletter,
+  Footer,
 } from "./components/index";
 
 const App = () => {
@@ -16,6 +19,9 @@ const App = () => {
       <NewItems />
       <FeaturesSecond />
       <Products />
+      <Testimonial />
+      <Newsletter />
+      <Footer />
     </div>
   );
 };

@@ -52,11 +52,11 @@
 }
 
 .testimonialSlider .swiper-button-prev {
-  left: 0;
+  right: 0;
 }
 
 .testimonialSlider .swiper-button-next {
-  left: 12%;
+  right: 12%;
 }
 
 @media (max-width: 768px) {

@@ -41,6 +41,6 @@ module.exports = {
         primary: "0px 4px 10px rgba(15, 27, 51, 0.05);",
       },
     },
-    plugins: [require("tailwindcss-rtl")],
+    plugins: [],
   },
 };

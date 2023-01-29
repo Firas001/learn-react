@@ -1,4 +1,11 @@
-import { Header, Footer, Hero, Features, NewItems } from "./components/index";
+import {
+  Header,
+  Hero,
+  Features,
+  NewItems,
+  FeaturesSecond,
+  Products,
+} from "./components/index";
 
 const App = () => {
   return (
@@ -7,6 +14,8 @@ const App = () => {
       <Hero />
       <Features />
       <NewItems />
+      <FeaturesSecond />
+      <Products />
     </div>
   );
 };

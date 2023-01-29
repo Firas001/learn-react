@@ -29,7 +29,7 @@ const Header = () => {
           : // if bg is false
             "bg-none"
       }
-      fixed left-0 py-8 z-10 w-full transition-all duration-200 font-tajawal`}
+      fixed left-0 py-8 z-10 w-full transition-all duration-200`}
     >
       <div className="container mx-auto">
         <div className="flex justify-between items-center">

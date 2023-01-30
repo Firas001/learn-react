@@ -11,7 +11,7 @@ import "./slider.css";
 // import required modules
 import { Navigation, Pagination } from "swiper";
 // import data
-import { products } from "../contexts/ProductContext";
+import { products } from "../data/ProductsData";
 
 // import card
 import Card from "./Card";

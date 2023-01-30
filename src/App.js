@@ -1,3 +1,5 @@
+import React from "react";
+
 // import react router dom
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -20,7 +22,7 @@ const App = () => {
           <Route path="/product/:id" element={<ProductDetails />} />
           <Route path="/firas" element={<Firas />} />
         </Routes>
-        {/*<Sidebar />*/}
+        <Sidebar />
         <Footer />
       </Router>
     </div>

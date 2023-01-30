@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 // import useParams
 import { useParams } from "react-router-dom";
 // import product context
-import { products } from "../contexts/ProductContext";
+import { products } from "../data/ProductsData";
 // import card
 import Card from "../components/Card";
 

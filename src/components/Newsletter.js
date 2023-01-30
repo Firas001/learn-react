@@ -1,7 +1,7 @@
 import React from "react";
 
 // import data
-import { newsletter } from "../data";
+import { newsletter } from "../data/NewsletterData";
 
 const Newsletter = () => {
   const { title, subtitle, placeholder, buttonText } = newsletter;

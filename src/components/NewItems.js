@@ -1,7 +1,7 @@
 import React from "react";
 
 // import data
-import { newInStore } from "../data";
+import { newInStore } from "../data/NewInStoreData";
 
 // import components
 import NewItemsSlider from "./NewItemsSlider";

@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 // import data
-import { newInStore } from "../data";
+import { newInStore } from "../data/NewInStoreData";
 
 const NewItemsSlider = () => {
   return (

@@ -1,13 +1,13 @@
 import React from "react";
 
 // import data
-import { products } from "../data";
+import { products_title } from "../data/ProductsTitleData";
 
 // import components
 import ProductSlider from "./ProductSlider";
 
 const Products = () => {
-  const { title, subtitle } = products;
+  const { title, subtitle } = products_title;
   return (
     <section className="section text-center">
       <div className="container mx-auto">

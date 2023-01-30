@@ -15,7 +15,7 @@ import { CgMenuRight, CgClose } from "react-icons/cg";
 import { BsBag } from "react-icons/bs";
 
 // import data
-import { navigation } from "../data";
+import { navigation } from "../data/NavigationData";
 // import components
 import NavMobile from "./NavMobile";
 

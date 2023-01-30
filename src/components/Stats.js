@@ -1,6 +1,6 @@
 import React from "react";
 
-import { stats } from "../data";
+import { stats } from "../data/StatsData";
 
 const Stats = () => {
   return (

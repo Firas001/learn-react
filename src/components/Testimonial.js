@@ -3,7 +3,7 @@ import React from "react";
 // import components
 import TestimonialSlider from "./TestimonialSlider";
 // import data
-import { testimonial } from "../data";
+import { testimonial } from "../data/TestimonialData";
 
 const Testimonial = () => {
   const { image, title } = testimonial;

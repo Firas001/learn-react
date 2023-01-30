@@ -1,7 +1,7 @@
 import React from "react";
 
 // import data
-import { hero } from "../data";
+import { hero } from "../data/HeroData";
 
 // import components
 import Stats from "./Stats";

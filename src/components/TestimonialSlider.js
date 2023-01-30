@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Navigation } from "swiper";
 // import data
-import { testimonial } from "../data";
+import { testimonial } from "../data/TestimonialData";
 
 const TestimonialSlider = () => {
   return (

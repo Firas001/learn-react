@@ -4,7 +4,7 @@ import React from "react";
 import Logo from "../assets/img/logo.svg";
 
 // import data
-import { footer } from "../data";
+import { footer } from "../data/FooterData";
 
 const Footer = () => {
   return (

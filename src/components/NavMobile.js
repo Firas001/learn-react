@@ -1,5 +1,5 @@
 // import data
-import { navigation } from "../data";
+import { navigation } from "../data/NavigationData";
 
 const NavMobile = () => {
   return (

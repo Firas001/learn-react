@@ -1,5 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 
+// import link
+import { Link } from "react-router-dom";
+
 // sidebar context
 import { SidebarContext } from "../contexts/SidebarContext";
 // cart context
@@ -71,12 +74,11 @@ const Header = () => {
               {navigation.map((item, index) => {
                 return (
                   <li key={index}>
-                    <a
-                      className="capitalize text-white hover:border-b transition-all"
-                      href={item.href}
-                    >
-                      {item.name}
-                    </a>
+                    <Link to={item.href}>
+                      <span className="capitalize text-white hover:border-b transition-all">
+                        {item.name}
+                      </span>
+                    </Link>
                   </li>
                 );
               })}

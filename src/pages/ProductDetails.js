@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 // import useParams
 import { useParams } from "react-router-dom";
 // import cart context
-//import { CartContext } from "../contexts/CartContext";
+import { CartContext } from "../contexts/CartContext";
 // import product context
 import { products } from "../data/ProductsData";
 
@@ -10,7 +10,7 @@ const ProductDetails = () => {
   // get the product id from the url
   const { id } = useParams();
   const cards = products.map((card) => card);
-  //const { addToCart } = useContext(CartContext);
+  const { addToCart } = useContext(CartContext);
 
   // get the single product based on the id
   const product = cards.find((item) => {
@@ -52,7 +52,10 @@ const ProductDetails = () => {
               $ {price}
             </div>
             <p className="mb-8">{details}</p>
-            <button className="bg-primary py-4 px-8 text-white">
+            <button
+              onClick={() => addToCart(product, product.id)}
+              className="bg-primary py-4 px-8 text-white"
+            >
               Add to cart
             </button>
           </div>

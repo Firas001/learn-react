@@ -36,19 +36,19 @@ import Avatar4Img from "./assets/img/avatar-4.png";
 export const navigation = [
   {
     name: "الرئيسية",
-    href: "home",
+    href: "/",
   },
   {
     name: "حول",
-    href: "about",
+    href: "/",
   },
   {
     name: "المنتجات",
-    href: "features",
+    href: "/",
   },
   {
     name: "تواصل معنا",
-    href: "contact",
+    href: "/",
   },
 ];
 

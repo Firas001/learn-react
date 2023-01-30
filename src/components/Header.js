@@ -1,9 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+
+// sidebar context
+import { SidebarContext } from "../contexts/SidebarContext";
+// cart context
+import { CartContext } from "../contexts/CartContext";
 
 // import logo
 import Logo from "../assets/img/logo.svg";
 //import icons
 import { CgMenuRight, CgClose } from "react-icons/cg";
+import { BsBag } from "react-icons/bs";
 
 // import data
 import { navigation } from "../data";
@@ -13,6 +19,8 @@ import NavMobile from "./NavMobile";
 const Header = () => {
   // header state
   const [bg, setBg] = useState(false);
+  const { isOpen, setIsOpen } = useContext(SidebarContext);
+  const { itemAmount } = useContext(CartContext);
   const [mobileNav, setMobileNav] = useState(false);
   useEffect(() => {
     // add event listener
@@ -35,6 +43,17 @@ const Header = () => {
     >
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
+          {/* cart */}
+          <div
+            onClick={() => setIsOpen(!isOpen)}
+            className="cursor-pointer flex relative"
+          >
+            <BsBag className="text-2xl text-white" />
+            <div className="bg-red-500 absolute -right-2 -bottom-2 text-[12px] w-[18px] h-[18px] text-white rounded-full flex justify-center items-center">
+              {itemAmount}
+            </div>
+          </div>
+
           {/* logo */}
           <a href="/">
             <img className="h-6 lg:h-8" src={Logo} alt="" />
@@ -63,6 +82,7 @@ const Header = () => {
               })}
             </ul>
           </nav>
+
           {/* nav mobile */}
           <div
             className={`${

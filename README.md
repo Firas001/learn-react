@@ -42,5 +42,4 @@ git clone https://github.com/Firas001/learn-react.git
 
 ```sh
 npm install
-``
 ```

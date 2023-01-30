@@ -6,4 +6,5 @@ export { default as FeaturesSecond } from "./FeaturesSecond";
 export { default as Products } from "./Products";
 export { default as Newsletter } from "./Newsletter";
 export { default as Testimonial } from "./Testimonial";
+export { default as Sidebar } from "./Sidebar";
 export { default as Footer } from "./Footer";

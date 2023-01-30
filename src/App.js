@@ -7,17 +7,7 @@ import ProductDetails from "./pages/ProductDetails";
 import Firas from "./pages/Firas";
 
 // import components
-import {
-  Header,
-  Hero,
-  Features,
-  NewItems,
-  FeaturesSecond,
-  Products,
-  Testimonial,
-  Newsletter,
-  Footer,
-} from "./components/index";
+import { Header, Hero, Sidebar, Footer } from "./components/index";
 
 const App = () => {
   return (
@@ -30,6 +20,7 @@ const App = () => {
           <Route path="/product/:id" element={<ProductDetails />} />
           <Route path="/firas" element={<Firas />} />
         </Routes>
+        {/*<Sidebar />*/}
         <Footer />
       </Router>
     </div>

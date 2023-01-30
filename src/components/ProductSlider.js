@@ -19,6 +19,7 @@ import Card from "./Card";
 const page1 = products.slice(0, 10).map((card) => {
   return (
     <Card
+      key={card.id}
       id={card.id}
       image={card.image}
       name={card.name}
@@ -32,6 +33,7 @@ const page1 = products.slice(0, 10).map((card) => {
 const page2 = products.slice(10, 21).map((card) => {
   return (
     <Card
+      key={card.id}
       id={card.id}
       image={card.image}
       name={card.name}

@@ -1,18 +1,18 @@
 export const stats = [
   {
-    value: "7",
-    text: "Year Experience",
+    value: "10",
+    text: "سنوات من الخبرة",
   },
   {
-    value: "2",
-    text: "Opened in the country",
+    value: "8",
+    text: "فروع في ليبيا",
   },
   {
-    value: "10k+",
-    text: "Furniture sold",
+    value: "+ 10,000",
+    text: "زبون تعامل معنا",
   },
   {
-    value: "260+",
-    text: "Variant Furniture",
+    value: "+ 100",
+    text: "نوع من الأثاث لدينا",
   },
 ];

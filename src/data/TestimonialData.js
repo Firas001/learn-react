@@ -5,29 +5,29 @@ import Avatar2Img from "../assets/img/avatar-2.png";
 import Avatar3Img from "../assets/img/avatar-3.png";
 
 export const testimonial = {
-  title: "What people are saying about us",
+  title: "مذا قال العملاء عن السوق الليبي؟",
   image: <TestimonialImg />,
   persons: [
     {
       avatar: <Avatar1Img />,
-      name: "Josh Smith",
-      occupation: "Manager of The New York Times",
+      name: "فراس الدويني",
+      occupation: "من مصراتة",
       message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        "“لقد قمت بالبحث طويلاً عن طاولة مخصصة، بالصدفة عثرت على السوق الليبي وقد كان أفضل مكان يلبي كل متطلباتي .”",
     },
     {
       avatar: <Avatar2Img />,
-      name: "Brandi Johns",
-      occupation: "Manager of The New York Times",
+      name: "فاطمة عبد الله",
+      occupation: "من طرابلس",
       message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        "“لم اكن اتوقع أننا نملك صناعة محلية بهذه الجودة، لأول مرة أثق في المنتج المحلي اكثر من الأجنبي وذلك بفضل السوق الليبي .”",
     },
     {
       avatar: <Avatar3Img />,
-      name: "Paula Pfeffer",
-      occupation: "Manager of The New York Times",
+      name: "سندس منصور",
+      occupation: "من سبها",
       message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
+        "“كنت أعاني من بعض الأعمال المنزلية التي تحتاج إلى فك وتركيب، حتى وجدت السوق الليبي، في أي وقت يمكنه تلبية كل الطلبات، شكراً لفريق العمل .”",
     },
   ],
 };

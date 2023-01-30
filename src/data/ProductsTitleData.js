@@ -1,5 +1,5 @@
 export const products_title = {
-  title: "All Products",
+  title: "منتجاتنا",
   subtitle:
-    "The products we provide only for you as our service are selected from the best products with number 1 quality in the world",
+    "اطلع على أحدث المنتجات محلية الصنع في السوق الليبي، مع العلم أننا نوفر منتجات حسب الطلب ورغبة العميل، كل هذا والكثير لدى السوق الليبي",
 };

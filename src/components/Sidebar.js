@@ -22,7 +22,7 @@ const Sidebar = () => {
     >
       <div className="flex items-center justify-between py-6 border-b">
         <div className="uppercase text-sm font-semibold">
-          Shopping Bag ({itemAmount})
+          حقيبة المشتريات ({itemAmount})
         </div>
         {/* icon */}
         <div
@@ -32,7 +32,7 @@ const Sidebar = () => {
           <IoMdArrowForward className="text-2xl" />
         </div>
       </div>
-      <div className="flex flex-col gap-y-2 h-[520px] lg:h-[640px] overflow-y-auto overflow-x-hidden border-b">
+      <div className="flex flex-col gap-y-2 h-[480px] overflow-y-auto overflow-x-hidden border-b">
         {cart.map((item) => {
           return <CartItem item={item} key={item.id} />;
         })}
@@ -41,7 +41,8 @@ const Sidebar = () => {
         <div className="flex w-full justify-between items-center">
           {/* total */}
           <div className="uppercase font-semibold">
-            <span className="mr-2">Total:</span>$ {parseFloat(total).toFixed(2)}
+            <span className="mr-2">المجموع: </span>${" "}
+            {parseFloat(total).toFixed(2)}
           </div>
           {/* clear cart icon */}
           <div
@@ -55,13 +56,13 @@ const Sidebar = () => {
           to="/"
           className="bg-gray-200 flex p-4 justify-center items-center text-primary w-full font-medium"
         >
-          View cart
+          عرض الحقيبة
         </Link>
         <Link
           to="/"
           className="bg-primary flex p-4 justify-center items-center text-white w-full font-medium"
         >
-          Checkout
+          إتمام الشراء
         </Link>
       </div>
     </div>

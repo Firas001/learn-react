@@ -7,28 +7,28 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 
 export const features = {
   image: <Features1Img />,
-  title: "We Create your home more aesthetic",
+  title: "لسنا وحدنا ولكننا الأفضل بشهادة معظم زبائننا",
   subtitle:
-    "Furniture power is a software as services for multipurpose business management system",
+    "نص افتراضي يتم عرض فيه نقاط القوة لدى الشركة وذكر بعض المزايا التي تقدمها حصراً للعملاء",
   buttonText: "Show Now",
   items: [
     {
       icon: <IoIosCheckmarkCircle />,
-      title: "Valuation Services",
+      title: "الميزة الأولى",
       subtitle:
-        "Sometimes features require a short description.  This can be detailed description",
+        "نص افتراضي يعبر فيه عن إحدى المزايا التي يقدمها السوق الليبي للأثاث",
     },
     {
       icon: <IoIosCheckmarkCircle />,
-      title: "Development of Furniture Models",
+      title: "الميزة الثانية",
       subtitle:
-        "Sometimes features require a short description.  This can be detailed description",
+        "نص افتراضي يعبر فيه عن إحدى المزايا التي يقدمها السوق الليبي للأثاث",
     },
   ],
   feature2: {
     image: <Features2Img />,
-    title: "The Best Furniture Manufacturer of your choice",
+    title: "مطابخ إيطالية بأفضل جودة وأنسب سعر ستجدها فقط لدى السوق الليبي",
     subtitle:
-      "Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.",
+      "نص افتراضي يتم ذكر فيه الشركات التي تم عقد وكالة رسمية معها والتي نقدم عن طريقها أثاث مع ضمان يقدم للعميل لزيادة الثقة في المنتج الذي سيتم ترويجه.",
   },
 };

@@ -20,9 +20,12 @@ const Hero = () => {
           {subtitle}
         </h2>
         {/* button */}
-        <button className="px-[35px] lg:px-[80px] py-[9px] lg:py-[16px] mb-[160px] lg:mb-[194px] text-xl rounded-md bg-[rgba(255,255,255,0.4)] hover:bg-[rgba(255,255,255,0.5)] backdrop-blur-md transition">
-          {buttonText}
-        </button>
+        <a href="#products">
+          <button className="px-[35px] lg:px-[80px] py-[9px] lg:py-[16px] mb-[160px] lg:mb-[194px] text-xl rounded-md bg-[rgba(255,255,255,0.4)] hover:bg-[rgba(255,255,255,0.5)] backdrop-blur-md transition">
+            {buttonText}
+          </button>
+        </a>
+
         {/* stats */}
         <div className="-top-[70px] relative">
           <Stats />

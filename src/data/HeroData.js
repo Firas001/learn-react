@@ -1,6 +1,6 @@
 export const hero = {
-  title: "Creative Home Simpify your Furniture",
+  title: "السوق الليبي لبيع الأثاث بجميع الفئات والأشكال",
   subtitle:
-    "Do i have consent to record this meeting gain locaion, root-and-branch, review, nor game plan who’s the goto",
-  buttonText: "Shop Now",
+    "نقدم أفضل انواع الأثاث الجديد والمستعمل، المحلي والمستورد، بأسعار تناسب الجميع، نوفر ايضا خدمات حسب الطلب",
+  buttonText: "تسوق الآن",
 };

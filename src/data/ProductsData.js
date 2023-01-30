@@ -14,7 +14,7 @@ export const products = [
   {
     id: 1,
     image: <Product1Img />,
-    name: "Ceiling Light",
+    name: "طاولة مزهرية",
     price: 75,
     oldPrice: 82,
     details:
@@ -23,7 +23,7 @@ export const products = [
   {
     id: 2,
     image: <Product2Img />,
-    name: "Wood Chair",
+    name: "مقاعد خشب صغيرة",
     price: 50,
     oldPrice: 70,
     details:
@@ -32,7 +32,7 @@ export const products = [
   {
     id: 3,
     image: <Product3Img />,
-    name: "Papper Cupboard",
+    name: "طاولة كتب",
     price: 105,
     oldPrice: 120,
     details:
@@ -41,7 +41,7 @@ export const products = [
   {
     id: 4,
     image: <Product4Img />,
-    name: "Ole Gundorse Spring",
+    name: "كرسي فاخر",
     price: 75,
     oldPrice: 82,
     details:
@@ -50,7 +50,7 @@ export const products = [
   {
     id: 5,
     image: <Product5Img />,
-    name: "Treos Seroes 911",
+    name: "كرسي هزاز",
     price: 200,
     oldPrice: 210,
     details:
@@ -59,7 +59,7 @@ export const products = [
   {
     id: 6,
     image: <Product6Img />,
-    name: "Multi bilderman slibber",
+    name: "كرسي أطفال",
     price: 45,
     oldPrice: 50,
     details:
@@ -68,7 +68,7 @@ export const products = [
   {
     id: 7,
     image: <Product7Img />,
-    name: "XORA corner desk",
+    name: "كرسي متعدد الاستعمال",
     price: 320,
     oldPrice: 325,
     details:
@@ -77,7 +77,7 @@ export const products = [
   {
     id: 8,
     image: <Product8Img />,
-    name: "Black Forest Series Wood",
+    name: "طاولة تحف صغيرة",
     price: 225,
     oldPrice: 240,
     details:
@@ -86,14 +86,14 @@ export const products = [
   {
     id: 9,
     image: <Product9Img />,
-    name: "Papper Cupboard",
+    name: "كرسي طويل",
     price: 105,
     oldPrice: 120,
   },
   {
     id: 10,
     image: <Product10Img />,
-    name: "Ole Gundorse Spring",
+    name: "مكتبة كمبيوتر",
     price: 75,
     oldPrice: 82,
     details:
@@ -102,7 +102,7 @@ export const products = [
   {
     id: 11,
     image: <Product1Img />,
-    name: "Ceiling Light",
+    name: "طاولة مزهرية",
     price: 75,
     oldPrice: 82,
     details:
@@ -111,7 +111,7 @@ export const products = [
   {
     id: 12,
     image: <Product2Img />,
-    name: "Wood Chair",
+    name: "مقاعد خشب صغيرة",
     price: 50,
     oldPrice: 70,
     details:
@@ -121,7 +121,7 @@ export const products = [
     id: 13,
     image: <Product3Img />,
 
-    name: "Papper Cupboard",
+    name: "طاولة كتب",
     price: 105,
     oldPrice: 120,
     details:
@@ -130,7 +130,7 @@ export const products = [
   {
     id: 14,
     image: <Product4Img />,
-    name: "Ole Gundorse Spring",
+    name: "كرسي فاخر",
     price: 75,
     oldPrice: 82,
     details:
@@ -139,7 +139,7 @@ export const products = [
   {
     id: 15,
     image: <Product5Img />,
-    name: "Treos Seroes 911",
+    name: "كرسي هزاز",
     price: 200,
     oldPrice: 210,
     details:
@@ -149,7 +149,7 @@ export const products = [
     id: 16,
     image: <Product6Img />,
 
-    name: "Multi bilderman slibber",
+    name: "كرسي أطفال",
     price: 45,
     oldPrice: 50,
     details:
@@ -159,28 +159,28 @@ export const products = [
     id: 17,
     image: <Product7Img />,
 
-    name: "XORA corner desk",
+    name: "كرسي متعدد الاستعمال",
     price: 320,
     oldPrice: 325,
   },
   {
     id: 18,
     image: <Product8Img />,
-    name: "Black Forest Series Wood",
+    name: "طاولة تحف صغيرة",
     price: 225,
     oldPrice: 240,
   },
   {
     id: 19,
     image: <Product9Img />,
-    name: "Papper Cupboard",
+    name: "كرسي طويل",
     price: 105,
     oldPrice: 120,
   },
   {
     id: 20,
     image: <Product10Img />,
-    name: "Ole Gundorse Spring",
+    name: "مكتبة كمبيوتر",
     price: 75,
     oldPrice: 82,
   },

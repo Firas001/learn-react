@@ -9,25 +9,26 @@ import LightingImg from "../assets/img/lighting.png";
 import { IoIosArrowRoundBack } from "react-icons/io";
 
 export const newInStore = {
-  title: "New In Store Now",
-  subtitle: "Get the latest items immediately with promo prices",
-  link: "Check all",
+  title: "جديدنا دلى السوق الليبي",
+  subtitle:
+    "تعرف على احدث الموديلات من الأثاث لمختلف الأنواع فقط لدى السوق الليبي",
+  link: "عرض المزيد",
   icon: <IoIosArrowRoundBack />,
   products: [
     {
-      name: "chair",
+      name: "غرف معيشة",
       image: <ChairImg />,
     },
     {
-      name: "bed",
+      name: "غرف نوم",
       image: <BedImg />,
     },
     {
-      name: "cupboard",
+      name: "دواليب",
       image: <CupboardImg />,
     },
     {
-      name: "lighting",
+      name: "إنارة منزلية",
       image: <LightingImg />,
     },
   ],

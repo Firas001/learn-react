@@ -14,7 +14,6 @@ import {
 const Home = () => {
   return (
     <>
-      <Hero />
       <Features />
       <NewItems />
       <FeaturesSecond />

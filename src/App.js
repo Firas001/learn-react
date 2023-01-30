@@ -24,9 +24,11 @@ const App = () => {
     <div className="w-full max-w-[1440px] mx-auto bg-white">
       <Router>
         <Header />
+        <Hero />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/product/:id" element={<ProductDetails />} />
+          <Route path="/firas" element={<Firas />} />
         </Routes>
         <Footer />
       </Router>

@@ -52,12 +52,12 @@ const ProductSlider = () => {
       modules={[Pagination, Navigation]}
       className="productSlider min-h-[1300px]"
     >
-      <SwiperSlide>
+      <SwiperSlide key="1">
         <div className="grid grid-cols-2 gap-x-5 md:grid-cols-3 lg:grid-cols-4 lg:gap-[30px]">
           {page1}
         </div>
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide key="2">
         <div className="grid grid-cols-2 gap-x-5 md:grid-cols-3 lg:grid-cols-4 lg:gap-[30px]">
           {page2}
         </div>

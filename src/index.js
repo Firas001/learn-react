@@ -10,6 +10,10 @@ import SidebarProvider from "./contexts/SidebarContext";
 // cart provider
 import CartProvider from "./contexts/CartContext";
 
+//pwa
+import swDEv from './swDev'
+import swDev from "./swDev";
+
 // ReactDOM.render(what, where);
 // what must have only one tag, or return can only return one tag
 
@@ -25,3 +29,4 @@ root.render(
     </CartProvider>
   </SidebarProvider>
 );
+swDev();
